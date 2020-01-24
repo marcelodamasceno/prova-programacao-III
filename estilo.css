@@ -1,0 +1,63 @@
+.formulario{
+    width: 500px;
+    padding: 32px;
+    border:1px solid rgb(151, 159, 184);
+    
+    background-color: rgb(0, 174, 255);
+   
+    height:320px; 
+    left: 50%; 
+    margin: -130px 0 0 -210px; 
+
+    position: absolute; 
+    top: 50%;
+}
+.formulario p{
+    width: 60%;
+    font-size: 0em;
+}
+.field{
+    width: 80%;
+    margin: 15px 0;
+}
+.field label, 
+.field span{
+    padding-left: 10px;
+    font-size: 1.10em;
+    display: block;
+    width: 200%;
+}
+.radiobox label{
+    width: auto;
+    display: inline-block;
+}
+input[type=text],
+input[type=participacao],
+textarea{
+    width: 100%;
+    padding-left: 10px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+textarea{
+    line-height: 10px;
+    padding: 10px;
+    height: 90px;
+    resize: none;
+}
+input[type=submit]{
+    display: block;
+    background-color: #ccc;
+    height: 35px;
+    border: none;
+    outline: 0;
+    cursor: pointer;
+    width: 80px;
+    margin: 0 auto;
+    text-align-last: inherit;
+    background-color: rgb(31, 95, 233);
+    border-radius: 20px;
+}
