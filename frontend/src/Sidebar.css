@@ -1,0 +1,38 @@
+aside{
+    padding-top: 40px;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+    background-color: #00cbff;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    
+}
+
+
+
+#inputs{
+    margin-left: 20%;
+}
+#inputs input{
+  margin: 10px;
+  border: none;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 7px;
+}
+#inputs button{
+    margin: 10px;
+    border: 2px white solid;
+    background-color: #00cbff;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 7px;  
+    width: 200px;
+    color: #fff;
+    font-weight: bold;
+
+
+}
