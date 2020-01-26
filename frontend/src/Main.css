@@ -1,0 +1,27 @@
+main{
+   
+}
+
+h2,p{
+    margin-top: 10px;
+}
+table{
+    margin-left: 10%;
+    
+    
+}
+
+.titulos{
+    display: inline;
+    text-align: center;
+}
+
+.itens{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content:space-around;
+
+};
+
